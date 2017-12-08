@@ -1,0 +1,8 @@
+BEGIN TRANSACTION;
+CREATE TABLE `RatingDB` (
+	`file_id`	TEXT NOT NULL,
+	`file_name`	TEXT NOT NULL
+);
+INSERT INTO `RatingDB` VALUES ('1','2016_Changes');
+INSERT INTO `RatingDB` VALUES ('2','2016_RDP');
+COMMIT;
